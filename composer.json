@@ -1,0 +1,24 @@
+{
+    "name": "cleancookie/attempt",
+    "description": "Attempt helper function",
+    "type": "library",
+    "keywords": [
+        "attempt",
+        "idiomatic"
+    ],
+    "authors": [
+        {
+            "name": "Alex Law"
+        }
+    ],
+    "homepage": "https://github.com/cleancookie/attempt",
+    "license": "MIT",
+    "require": {
+        "php": "^7.0|^8.0"
+    },
+    "autoload": {
+        "files": [
+            "src/functions.php"
+        ]
+    }
+}
