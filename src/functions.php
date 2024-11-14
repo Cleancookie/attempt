@@ -5,7 +5,7 @@ if (!function_exists('attempt')) {
     {
         try {
             return [null, $callback()];
-        } catch (\Exception $e) {
+        } catch (\Throwable $e) {
             return [$e, null];
         }
     }
